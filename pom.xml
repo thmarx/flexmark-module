@@ -10,7 +10,7 @@
 		<module.id>flexmark-module</module.id>
 		<module.name>flexmark module</module.name>
 		<module.priority>HIGH</module.priority>
-		<cms.version>4.0.0-SNAPSHOT</cms.version>
+		<cms.version>4.0.0</cms.version>
 	 <maven.compiler.source>21</maven.compiler.source>
 	 <maven.compiler.target>21</maven.compiler.target>
 	</properties>
@@ -47,13 +47,13 @@
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
-			<version>5.6.0</version>
+			<version>5.7.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
-			<version>5.6.0</version>
+			<version>5.8.0</version>
 			<scope>test</scope>
 		</dependency>
 
