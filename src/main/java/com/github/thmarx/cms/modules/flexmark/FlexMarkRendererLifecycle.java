@@ -21,6 +21,8 @@ package com.github.thmarx.cms.modules.flexmark;
  * <http://www.gnu.org/licenses/gpl-3.0.html>.
  * #L%
  */
+import com.github.thmarx.cms.api.module.CMSModuleContext;
+import com.github.thmarx.cms.api.module.CMSRequestContext;
 import com.github.thmarx.modules.api.ModuleLifeCycleExtension;
 import com.github.thmarx.modules.api.annotation.Extension;
 
@@ -29,7 +31,7 @@ import com.github.thmarx.modules.api.annotation.Extension;
  * @author t.marx
  */
 @Extension(ModuleLifeCycleExtension.class)
-public class FlexMarkRendererLifecycle extends ModuleLifeCycleExtension {
+public class FlexMarkRendererLifecycle extends ModuleLifeCycleExtension<CMSModuleContext, CMSRequestContext> {
 
 	protected static FlexMarkMarkdownRenderer renderer;
 
